@@ -14,14 +14,20 @@ const Navigate = (sliderName) => {
     if (mySlider != null) mySlider.scrollIntoView({ behavior: "smooth" });
 }
 
+const GetLocation = (sliderName)=>{
+    const mySlider = document.getElementById(`sliders-${sliderName.toLowerCase()}`);
+    return mySlider.offsetTop;
+}
+
+
 const SliderBox = (props) => {
     
     return (
-        <div className="w-screen h-screen">
+        <div className="w-screen h-screen main-slide-box">
             {props.children}
         </div>
     )
 }
 
-export { Slider, Navigate };
+export { Slider, Navigate,GetLocation };
 export default SliderBox;

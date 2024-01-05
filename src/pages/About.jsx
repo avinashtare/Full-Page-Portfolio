@@ -58,7 +58,6 @@ function about() {
                                     <p className='text-[12px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur repellat magni fugiat placeat vitae et, reiciendis praesentium.</p>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
