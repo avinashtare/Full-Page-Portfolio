@@ -26,7 +26,9 @@ function Navbar() {
     return (
         <div className='fixed w-[20%] h-full bg-yellow z-10'>
 
-            <div className='w-full h-[30%] bg-red-50'><img src="/images/iam.jpg" className='w-full h-full object-cover' alt="my image" /></div>
+            <div className='w-full h-[30%] bg-red-50'>
+                <img src="/images/iam.jpg" className='w-full h-full object-cover' alt="my image" />
+            </div>
             <div className='w-full h-[70%] flex flex-col items-center justify-center'>
                 <div className='w-[8px] h-[8px] bg-black rounded-full'></div>
                 <ThreeDot />
