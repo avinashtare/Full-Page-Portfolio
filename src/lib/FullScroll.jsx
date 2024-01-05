@@ -3,7 +3,7 @@ import React from "react";
 
 const Slider = ({ name, Component, props = {} }) => {
     return (
-        <div className="w-full h-full slider" id={`sliders-${name.toLowerCase()}`}>
+        <div className="relative w-full h-full slider" id={`sliders-${name.toLowerCase()}`}>
             {<Component data={props} />}
         </div>
     );

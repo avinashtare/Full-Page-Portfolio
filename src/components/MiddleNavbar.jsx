@@ -10,7 +10,7 @@ import { Navigate } from "@/lib/FullScroll"
 
 function MiddleNavbar() {
     return (
-        <div className='top-[50%] left-[95%] w-10 py-4 -translate-y-2/4 -translate-x-2/4 bg-yellow  rounded-full fixed overflow-x-hidden'>
+        <div className='top-[50%] left-[95%] w-10 py-4 -translate-y-2/4 -translate-x-2/4 bg-yellow  rounded-full fixed overflow-x-hidden z-10'>
             <div className='flex flex-col'>
                 <div className='flex justify-center items-center text-white text-xl cursor-pointer my-1' onClick={()=>{Navigate("home")}}>
                     <FaHome />

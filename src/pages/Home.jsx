@@ -2,7 +2,7 @@ import React from 'react'
 import { Navigate } from "@/lib/FullScroll"
 function home(props) {
   return (
-    <div className='flex w-full h-full'>
+    <div className='flex w-full h-full relative'>
       <div className="info w-[50%] h-full flex items-center justify-center">
         <div className='w-[60%]'>
           <h3 className='text-3xl font-bold'>HI THERE!</h3>
