@@ -1,8 +1,55 @@
-# React + Vite
+# Full Page React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Amazing full page portfolio web app using react and Tailwind css.
+## Demo video
+[screen-capture.webm](https://github.com/avinashtare/Full-Page-Portfolio/assets/88629099/e92d12f8-daae-4058-b179-66f2c73df971)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Technologies Used
+- React Vite
+- Styling Tailwind Css
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/avinashtare/Full-Page-Portfolio.git
+    cd Full-Page-Portfolio
+    ```
+
+2. Run Project:
+
+    ```bash
+    # Install dependencies
+    npm install
+    # start server
+    npm run dev
+    ```
+
+3. Open your browser and visit `http://localhost:<portname>` to use the application.
+
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## License
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This project is released under the [MIT License](LICENSE).  
+
+
+## Contact
+
+**[avinashtare.work@gmail.com](mailto:avinashtare.work@gmail.com)**
+
+## Author
+**卐🕉 Avinash Tare 🕉 卐**
