@@ -4,15 +4,16 @@ import About from '@/pages/about';
 import Contact from '@/pages/Contact';
 import Portfolio from '@/pages/Portfolio';
 import Resume from '@/pages/Resume';
-import SliderBox, { Slider,GetLocation } from "@/lib/FullScroll";
+import SliderBox, { Slider, GetLocation } from "@/lib/FullScroll";
 import MiddleNavbar from './components/MiddleNavbar';
 import Navbar from './components/Navbar';
 
 function SinglePage() {
     const [ShowNav, setShowNav] = useState({ isShow: false });
+    const [IsLoad, setIsLoad] = useState(false)
 
     const handleScroll = () => {
-        if (window.scrollY < GetLocation("about")-50) {
+        if (window.scrollY < GetLocation("about") - 50) {
             setShowNav({ isShow: false });
         } else {
             setShowNav({ isShow: true });
@@ -22,12 +23,16 @@ function SinglePage() {
     useEffect(() => {
         // Add event listener when the component mounts
         document.addEventListener("scroll", handleScroll);
+       if(!IsLoad)window.scrollTo(0,0);
 
         // Remove event listener when the component unmounts
         return () => {
             document.removeEventListener("scroll", handleScroll);
+            setIsLoad(true)
         };
     }, [ShowNav]);
+
+
 
     return (
         <SliderBox>

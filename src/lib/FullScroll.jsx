@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 
 const Slider = ({ name, Component, props = {} }) => {
@@ -21,7 +21,7 @@ const GetLocation = (sliderName)=>{
 
 
 const SliderBox = (props) => {
-    
+   
     return (
         <div className="w-screen h-screen main-slide-box">
             {props.children}

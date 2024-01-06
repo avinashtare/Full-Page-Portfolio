@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SinglePage from './SinglePage'
 
 function App() {
+
   return (
     <div>
       <SinglePage />
